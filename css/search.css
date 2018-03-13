@@ -1,0 +1,19 @@
+.section {
+    background: white;
+}
+input{
+    background: #ededed url(../images/search.png) no-repeat 9px center;
+    border: solid 1px #ccc;
+    outline: none;
+    padding: 9px 10px 9px 32px;
+    width: 60%;
+    border-radius: 10em;
+    transition: all .5s;
+}
+input:focus{
+    border:1px solid #A2C4FB;
+}
+.search{
+    height:250px;
+    margin-top:50px;
+}

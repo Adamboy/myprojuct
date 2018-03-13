@@ -1,0 +1,41 @@
+.bg{
+    background-color:#62A8EA;
+    height:100px;
+}
+.bg h1{
+    position:relative;
+    height: 100%;
+    color:white;
+    top:35px;
+
+}
+.r1{
+    margin-top:20px;
+}
+.r1 li{
+    display: inline-block;
+    margin:10px 10px 10px 10px;
+}
+.r2{
+    margin-top:60px;
+}
+.r2 li {
+    text-align: center;
+}
+li p{
+    color:red;
+    font-size: 15px;
+    font-weight:bolder;
+}
+input{
+    background: #ededed url(../../images/search.png) no-repeat 9px center;
+    border: solid 1px #ccc;
+    outline: none;
+    padding: 9px 10px 9px 32px;
+    width: 70%;
+    border-radius: 10em;
+    transition: all .5s;
+}
+input:focus{
+    border:1px solid #A2C4FB;
+}

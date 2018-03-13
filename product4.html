@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/product/product-all.css">
+<script src="js/jquery.js"></script>
+<script src="js/bootlint.js"></script>
+<script src="js/bootstrap.js"></script>
+<body>
+<div class="navbar navbar-default ">
+    <div class="container-fluid">
+        <!--第一部分：导航条头部=品牌+汉堡包-->
+        <div class="navbar-header">
+            <a href="index.html" ><img src="images/headter.png" class="img-responsive"></a>
+            <!--汉堡包菜单默认是隐藏-->
+            <a href="#my-menu" data-toggle="collapse" class="navbar-toggle">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+        </div>
+        <!--第二部分:导航条折叠=导航菜单+按钮+链连接+文本+表单-->
+        <div id="my-menu" class="collapse navbar-collapse ">
+            <ul class="nav navbar-nav ">
+                <li><a href="index.html">网站首页</a></li>
+                <li class="dropdown">
+                    <a href="page01.html" data-toggle="dropdown">新闻资讯
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="page01.html">新闻咨询</a></li>
+                        <li><a href="page01-1.html">公司动态</a></li>
+                        <li><a href="page01-2.html">业界资讯</a></li>
+                        <li><a href="page01-3.html">内部通知</a></li>
+                    </ul>
+                </li>
+                <li><a href="page02.html">招贤纳士</a></li>
+                <li class="dropdown">
+                    <a href="#" data-toggle="dropdown">
+                        公司产品
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="page04.html">全部</a></li>
+                        <li><a href="page04-01.html">室内效果图</a></li>
+                        <li><a href="page04-02.html">室外效果图</a></li>
+                        <li><a href="page04-03.html">建筑模型</a></li>
+                        <li><a href="page04-04.html">VR虚拟现实</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">下载中心</a></li>
+            </ul>
+            <a href="login2.html" class="btn btn-warning navbar-right navbar-link navbar-text">登录</a>
+            <span class="navbar-right navbar-text">|</span>
+            <a href="register2.html" class="btn btn-danger navbar-right navbar-link navbar-text">注册</a>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li><a href="">网站首页 /</a></li>
+            <li class="dropdown">
+                <a href="#" data-toggle="dropdown">公司产品
+                    <span class="caret"></span>
+                    /</a>
+                <ul class="dropdown-menu">
+                    <li><a href="page04.html">全部</a></li>
+                    <li><a href="page04-01.html">室内效果图</a></li>
+                    <li><a href="page04-02.html">室外效果图</a></li>
+                    <li><a href="page04-03.html">建筑模型</a></li>
+                    <li><a href="page04-04.html">VR虚拟现实</a></li>
+                </ul>
+            </li>
+            <li><a href="">VR虚拟现实</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<!--section1-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-xs-12">
+            <img src="images/product/1.jpg" >
+        </div>
+        <div class="col-md-6 col-xs-12">
+            <div><h1>VR虚拟体验产品</h1></div>
+            <div><p>承接各类室外、室内3DMAX模型建模!-----------------------------------------------------------------------------------------------------------------------市场价格为基础价格，实际制作的价格会根据该设计（图）的市场价格以及难易程度双方商定，这份交易的时间上也是双方互相商议的，整套</p></div>
+            <div><h2>99.00元</h2></div>
+
+            <div>
+                <p>数量</p>
+                <div class="group">
+                    <div class="input-group">
+                            <span class="input-group-btn">
+                                 <button class="btn btn-default" type="button">-</button>
+                            </span>
+                        <input type="text" class="form-control" placeholder="0" data-max="10" data-min="1">
+                        <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">+</button>
+                            </span>
+                    </div>
+                </div>
+                <p>库存10件</p>
+            </div>
+            <div>
+                <a href="#"><button class="btn btn-danger">立即购入</button></a>
+                <a href="#"><button class="btn btn-primary">加入购物车</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--product-details-->
+<div class="bg">
+    <div class="container" >
+        <div class="row">
+            <div class="col-md-9 col-xs-12">
+                <div>
+                    <span>详细信息</span>
+                    <hr>
+                    <p>价格：<a href="">【登录】</a><a href="">【注册】</a></p>
+                    <hr>
+                    <h3>承接各类室外、室内3DMAX模型建模!</h3>
+                    <div style="border-bottom:2px dashed #000000; margin:50px 0px 50px 0px ; "></div>
+                </div>
+                <p class="lead">市场价格为基础价格，实际制作的价格会根据该设计（图）的市场价格以及难易程度双方商定，这份交易的时间上也是双方互相商议的，整套制作时或量大时可有优惠。</p class="lead">
+                <div style="border-bottom:2px dashed #000000; margin:50px 0px 50px 0px ; "></div>
+                <div>
+                    <h3>联系方式：</h3>
+                    <p>请直接通过旺旺联系设计师（如不方便使用旺旺可拨打售后热线）</p>
+
+                    <h3>业务范围：</h3>
+                    <ol>
+                        <li><p>承接室外建筑、园林景观效果图表现</p></li>
+                        <li><p>承接室内效果图的制作</p></li>
+                        <li><p>承接单品模型效果图表现</p></li>
+                        <li><p>承接别墅、专卖店、商场、店铺、营业厅、酒店、餐厅、宾馆、会所、ktv、酒吧、洗浴中心、幼儿园、教室、图书馆、阅览室等工装工程效果图的表现</p></li>
+                    </ol>
+                </div>
+                <div style="border-bottom:2px dashed #000000; margin:50px 0px 50px 0px ; "></div>
+                <h3>以下是我们的工作流程，请买家仔细查看</h3>
+                <ol>
+                    <li>
+                        <p>旺旺联系我们的制图人员</p>
+                    </li>
+                    <li>
+                        <p>提供资料给我们报价</p>
+                    </li>
+                    <li>
+                        <p>买家拍下宝贝链接，付款（根据协商价格多少，拍等价的宝贝数量）</p>
+                    </li>
+                    <li>
+                        <p>完成后发送1000*1000以下小图给买家</p>
+                    </li>
+                    <li>
+                        <p>满意请确认收货及好评（不满意再次修改）</p>
+                    </li>
+                    <li>
+                        <p>我们的制图人员发送买家高清成品大图及相关文件给买家</p>
+                    </li>
+                    <li>
+                        <p>完成设计，期待你下次光临，可长期合作</p>
+                    </li>
+                </ol>
+
+            </div>
+
+            <div class="col-md-3 col-xs-12">
+                <div class="row">
+                    <h3>热门推荐</h3>
+                    <div class="col-md-12 col-xs-6">
+                        <img src="images/thumb2.png" class="img-responsive ">
+                        <p class="text-center"> <a href="">模型制作服务</a></p>
+                        <p class="text-center num-color">10.00元</p>
+                    </div>
+                    <div class="col-md-12 col-xs-6">
+                        <img src="images/thumb3.png"  class="img-responsive">
+                        <p class="text-center"> <a href="">VR虚拟体验产品</a></p>
+                        <p class="text-center num-color">10.00元</p>
+
+                    </div>
+                    <div class="col-md-12 col-xs-6">
+                        <img src="images/thumb.jpg" class="img-responsive ">
+                        <p class="text-center"> <a href="">室内效果图制作服务</a></p>
+                        <p class="text-center num-color">10.00元</p>
+
+                    </div>
+                    <div class="col-md-12 col-xs-6">
+                        <img src="images/thumb1.png" class="img-responsive">
+                        <p class="text-center"> <a href="">室外效果图制作服务</a></p>
+                        <p class="text-center num-color">10.00元</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+<!--页脚-->
+<div class="my-footer  ">
+    <div class="container" style="margin-top:80px; ">
+        <div class="row">
+            <div class="col-xs-4">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h4>关于我们</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">公司简介</a></li>
+                            <li><a href="#">企业文化</a></li>
+                            <li><a href="#">发展历程</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <h4>联系我们</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">在线反馈</a></li>
+                            <li><a href="#">联系方式</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h4>会员服务</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">会员注册</a></li>
+                            <li><a href="#">找回密码</a></li>
+                            <li><a href="#">发票制度</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 ">
+                        <h4>新闻资讯</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">公司动态</a></li>
+                            <li><a href="#">业界资讯</a></li>
+                            <li><a href="#">内部通知</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h4>028-6622-7866</h4>
+                        <p>周一至周五 09:30-18:00</p>
+                        <a href="#"><img src="images/foot1.png"></a>
+                        <a href="#"><img src="images/foot2.png"></a>
+                        <a href="#"><img src="images/foot3.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row" style="margin-top: 25px;">
+            <div class="col-xs-12">
+                <p class="text-center">友情链接 :  云溪设计 / 效果图 / 模型制作 / 数字城市 / VR+体验馆</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12" style="margin-top: 25px;">
+                <p class="text-center"><a href="#">©2017 Fuxinet ​.cn All Rights Reserved. 蜀ICP备:16010462号-1</a></p>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+a,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd li{
+  margin:0px;
+  padding:0px;
+  list-style:none;
+  text-decoration:none;
+  }
+.clear:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#p{font-size: 5px;}

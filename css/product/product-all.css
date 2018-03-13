@@ -1,0 +1,13 @@
+div>span{color:blue;font-size: 20px }
+
+h2,h3{color:red}
+.num-color{ color:red;  }
+
+p{  font-size: large; }
+div>img{
+    height: 400px;width:400px;
+}
+
+.bg{  margin-top: 40px;  }
+
+.group{  width:40%;  }

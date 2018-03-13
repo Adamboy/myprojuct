@@ -1,0 +1,108 @@
+﻿.p1_right{
+    height:45px;
+    width:200px;
+    border: 1px solid green;
+    margin:0 auto;
+}
+/*第二部分 carousel*/
+.carousel-inner img{
+    margin: 0 auto;
+}
+.carousel-control{
+    font-size: 100px;
+}
+/*第三部分的css*/
+.imgt{
+    width: 20px;
+    height: 20px;
+}
+.imgs1{
+    background-image: url(../images/1.png) ;
+}
+.imgs1:hover{
+    background-image: url(../images/11.png);
+}
+.imgs2{
+    background-image: url(../images/2.png) ;
+}
+.imgs2:hover{
+    background-image: url(../images/22.png);
+}
+.imgs3{
+    background-image: url(../images/3.png) ;
+}
+.imgs3:hover{
+    background-image: url(../images/33.png);
+}
+.imgs4{
+    background-image: url(../images/4.png) ;
+}
+.imgs4:hover{
+    background-image: url(../images/44.png);
+}
+.imgs1,.imgs2,.imgs3,.imgs4{
+    background-color: #EEEEEE;
+    background-repeat:no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin:0 auto;
+}
+.imgs1:hover,.imgs2:hover,.imgs3:hover,.imgs4:hover{
+    background-color:#4E97D9;
+}
+/*第5部分css*/
+.p5{margin-top:15px;}
+.p5_1 {
+    padding:0px;
+    text-align: left;
+}
+.p5_1>p{
+    overflow:hidden;
+    text-overflow:ellipsis ;
+    max-height: 100px;
+
+}
+/*portfolio*/
+.head_title{
+    margin-top:60px;
+}
+.head_title p{
+    font-size: 15px;
+    color:#62778A;
+}
+
+
+
+/*图片切换*/
+.div-all{
+    width: 1000px;
+    height: 400px;
+    margin:0 auto ;
+}
+#div1,#div2,#div3,#div4,#div5{
+    width: 1000px;
+    height: 300px;
+    margin-top: 25px;
+
+
+}
+#div2,#div3,#div4,#div5{
+    display: none;
+    margin-top: 25px;
+    float:left;
+}
+.colora a{
+    padding:8px 40px;
+
+}
+.colora a:hover{
+    text-decoration:none;
+}
+p{
+    text-align:center;
+}
+li>h3{
+    color:red;
+}
